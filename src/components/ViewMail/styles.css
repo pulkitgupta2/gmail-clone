@@ -1,0 +1,61 @@
+.viewMail__body {
+  background-color: white;
+  padding-bottom: 50px;
+  padding-left: 20px;
+}
+
+.viewMail__heading {
+  font-size: 1.375rem;
+  color: #202124;
+  font-weight: 400;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+.viewMail__senderDetails {
+  display: flex;
+  align-items: center;
+}
+.viewMail__senderName {
+  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.2px;
+  color: #202124;
+  line-height: 20px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.viewMail__senderWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.viewMail__senderMail {
+  white-space: nowrap;
+  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  font-size: 0.75rem;
+  color: #555;
+  letter-spacing: 0.3px;
+}
+.viewMail__info {
+  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.3px;
+  color: #5f6368;
+  line-height: 20px;
+  margin-left: 10px;
+}
+.mail__text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.viewMail__senderDetails {
+  margin-top: 20px;
+}
+.viewMail__bodyBtm {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.margin-left {
+  margin-left: 10px !important;
+}

@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:wght@500&display=swap");
+
+.drawer {
+  margin-top: 30px !important;
+}
+
+.MuiDrawer-paperAnchorDockedLeft {
+  margin-top: 70px !important;
+  background: transparent !important;
+  border: none !important;
+}
+
+.sidebar__compose {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin: 20px;
+  margin-left: 12px;
+  margin-top: 12px;
+  border-radius: 30px;
+  padding: 5px !important;
+  width: 135px !important;
+  height: 40px !important;
+  cursor: pointer;
+}
+
+.sidebar__addIMG {
+  margin-right: 15px;
+  margin-left: 5px;
+}
+.sidebar__compose > p {
+  font-family: "Roboto";
+  font-weight: 500 !important;
+  letter-spacing: 1px;
+}
+.sidebar__composeClose {
+  width: 45px !important;
+  height: 45px !important;
+}
+
+.sidebar__btns {
+  max-height: 350px;
+  height: 150px;
+  min-height: 100px;
+  overflow: auto;
+}
+
+.sidebar__btn {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  height: 30px;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-top: 0px !important;
+}
+
+.sidebar__topBtn {
+  margin-top: 7px;
+}
+
+.sidebar__btnClose {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  margin-left: 20px;
+  margin-top: -5px;
+  width: 30px;
+  height: 30px;
+}
+
+.sidebar__icon {
+  color: #cdd1d5;
+}
+
+.sidebar__btnLeft {
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebar__btnLeft > p {
+  margin-left: 10px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1) !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.65) !important;
+}
+.sidebar__active {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.sidebar__unread {
+  margin-right: 10px;
+  color: rgba(255, 255, 255, 1) !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.65) !important;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  font-size: 0.75rem;
+}
+
+.sidebar__btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar__btns::-webkit-scrollbar {
+  width: 10px;
+}
+
+.sidebar__btns::-webkit-scrollbar-thumb {
+  background: #637589;
+  display: none;
+}
+
+.sidebar__btns::-webkit-scrollbar-thumb:hover {
+  background: #d9dde2 !important;
+}
+
+.sidebar__btns:hover::-webkit-scrollbar-thumb {
+  background: #637589;
+  display: block;
+}
+.navabr__meetOptions {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12);
+  margin-bottom: 10px;
+}
+
+.navbar__meetTitle {
+  font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.25px;
+  border-radius: 0;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  line-height: 32px;
+  max-height: 32px;
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sidebar__hangoutsOptions {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+.sidebar__Hangoutsbadge {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.sidebar__Hangoutsbadge > p {
+  margin-left: 5px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}
+
+.MuiBadge-dot {
+  top: 17px;
+  background-color: #35ab19 !important;
+}
+
+.sidebar__avatarSmall {
+  width: 28px !important;
+  height: 28px !important;
+}
+
+.sidebar__hangoutChats {
+  width: 216px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12);
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sidebar__hangoutImg {
+  background: no-repeat
+    url("http://ssl.gstatic.com/chat/babble/sprites/common-517bca7f07a37c64c3263a1411e266a5.png") -649px -108px;
+  width: 72px;
+  height: 72px;
+  margin-top: 20px;
+  color: #eee;
+  text-shadow: rgba(0, 0, 0, 0.4) 0 0 4px;
+}
+
+.sidebar__hangoutChats > p {
+  color: #eee;
+  text-shadow: rgba(0, 0, 0, 0.4) 0 0 4px;
+  text-align: center;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.sidebar__footer {
+  position: absolute;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  bottom: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 5px;
+}
+
+.sidebar__footer > * {
+  color: white;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.sidebar__btnLeftClose {
+  margin-left: 4px;
+  padding: 1px !important;
+}
+.sidebar__btnLeftClose > p {
+  display: none;
+}
+.sidebar__unreadClose {
+  display: none;
+}
